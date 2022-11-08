@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #434343;
+    background: #f1f1f1;
+}
+.mentors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+}
+.mentors .mentor {
+    position: relative;
+    width: 470px;
+    height: 520px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Baaki */
+ .mentor-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.mentor-name {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #565656;
+    font-family: 'Poppins', sans-serif;
+}
+.mentor-job {
+    font-size: 20px;
+    margin: 25px 0;
+    color: #7A7A7A;
+    font-family: 'Poppins', sans-serif;
+}
+.mentor-disc {
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.mentor-tags {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    color: #565655;
+    line-height: 27px;
+}
+.mentor-tags ul {
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.book-session-btn {
+    width: 95%;
+    height: 44px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: white;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.main-heading {
+    text-align: left;
+    font-size: 28px;
+    color: #5A5F64;
+    margin-left: 35px;
+}
+.main-border {
+    width: 43px;
+    height: 5px;
+    background: #3BABC3;
+    margin-left: 35px;
+    margin-bottom: 50px;
+
+}
+.notification-bat {
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+.mentor-section {
+    padding: 50px 50px;
+}
+.btn-disable {
+    display: none;
+}
+.not-available{
+    size: 14px;
+    font-family: 'Poppins';
+    color: #A6A6A6;
+}
